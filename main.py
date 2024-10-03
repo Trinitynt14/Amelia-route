@@ -1,3 +1,50 @@
+
+def amelia_v2():
+
+story_dict = {
+    "positive": {
+        "script": [
+            "You chose the girl!",
+            "She looks at you not surprised or happy but neutural",
+            "she's smiling though...thats good right?",
+            ...,
+        ],
+        "branches": {
+            "like": {
+                "script": ...,
+                "branches": {},
+            }
+        }
+    },
+
+
+
+
+
+
+    "not_positive": ...,
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def amelia():
     positive = input("are you sure?: ")
     if positive == "yes" or positive == "Yes":
